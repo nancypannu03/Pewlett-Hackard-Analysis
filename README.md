@@ -29,8 +29,8 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
      title VARCHAR NOT NULL,
      from_date DATE NOT NULL,
      to_date DATE NOT NULL
-);
-Select * from titles;
+     );
+     Select * from titles;
 
 --The Number of Retiring Employees by Title
 SELECT e.emp_no,
