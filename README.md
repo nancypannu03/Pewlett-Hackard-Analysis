@@ -25,6 +25,7 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
          select * from employees;
 	 
          CREATE TABLE titles (
+	 
 	 emp_no INT NOT NULL,
          title VARCHAR NOT NULL,
          from_date DATE NOT NULL,
