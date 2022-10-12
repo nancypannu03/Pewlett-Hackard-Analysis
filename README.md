@@ -21,16 +21,16 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
           gender VARCHAR NOT NULL,
           hire_date DATE NOT NULL,
           PRIMARY KEY (emp_no)
-         );
+          );
          select * from employees;
-
-        CREATE TABLE titles (
-	emp_no INT NOT NULL,
-        title VARCHAR NOT NULL,
-        from_date DATE NOT NULL,
-        to_date DATE NOT NULL
-        );
-        Select * from titles;
+	 
+         CREATE TABLE titles (
+	 emp_no INT NOT NULL,
+         title VARCHAR NOT NULL,
+         from_date DATE NOT NULL,
+         to_date DATE NOT NULL
+         );
+         Select * from titles;
 
 --The Number of Retiring Employees by Title
 
