@@ -48,13 +48,13 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
       order by e.emp_no;
       SELECT * from retirement_titles;
 
-SELECT COUNT(title), title
-INTO retiring_titles
-FROM unique_titles
-GROUP BY title
-ORDER BY COUNT(title) DESC;
+      SELECT COUNT(title), title
+      INTO retiring_titles
+      FROM unique_titles
+      GROUP BY title
+      ORDER BY COUNT(title) DESC;
 
-SELECT * from retiring_titles;
+      SELECT * from retiring_titles;
 
 ### Deliverable 2: The Employees Eligible for the Mentorship Program
 
