@@ -62,8 +62,6 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 
       SELECT * from retiring_titles;
       
-![Test Image](/Resources/retirement_titles.png)
-
 
 ![Test Image](/Resources/unique_titles.png)
 
@@ -94,7 +92,7 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 
       Select * from mentorship_eligibilty;
 
-
+![Test Image](/Resources/mentorship_eligibilty.png)
 - 
 There is a bulleted list with four major points from the two analysis deliverables. 
 
