@@ -15,9 +15,13 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 ### Code
 
 [Employee_Database_challenge sql file](Queries/Employee_Database_challenge.sql)
+
 [Retirement_titles csv](Data/retirement_titles.csv)
+
 [Unique_titles csv](Data/unique_titles.csv)
+
 [Retiring_titles csv](Data/retiring_titles.csv)
+
 [Mentorship_eligibilty csv](Data/mentorship_eligibilty.csv)
 
 #### Deliverable 1: The Number of Retiring Employees by Title
