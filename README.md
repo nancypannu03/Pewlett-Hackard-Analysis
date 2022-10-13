@@ -63,7 +63,11 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
       SELECT * from retiring_titles;
       
 ![Test Image](/Resources/retirement_titles.png)
+
+
 ![Test Image](/Resources/unique_titles.png)
+
+
 ![Test Image](/Resources/retiring_titles.png)
 
 #### Deliverable 2: The Employees Eligible for the Mentorship Program
