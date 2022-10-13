@@ -15,7 +15,7 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 
       CREATE TABLE employees 
 	  (
-	  emp_no INT NOT NULL,
+      emp_no INT NOT NULL,
 	  birth_date DATE NOT NULL,
           first_name VARCHAR NOT NULL,
           last_name VARCHAR NOT NULL,
