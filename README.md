@@ -15,6 +15,10 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 ### Code
 
 [Employee_Database_challenge sql file](Queries/Employee_Database_challenge.sql)
+[Retirement_titles csv](Data/retirement_titles.csv)
+[Unique_titles csv](Data/unique_titles.csv)
+[Retiring_titles csv](Data/retiring_titles.csv)
+[Mentorship_eligibilty csv](Data/mentorship_eligibilty.csv)
 
 #### Deliverable 1: The Number of Retiring Employees by Title
 -- Creating employees and titles tables and imporitng the csv files 
@@ -97,12 +101,18 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 ![Test Image](/Resources/mentorship_eligibilty.png)
 
 - Four major points from the two analysis deliverables. 
-     - From the Image [Retiring_titles](Resources/retiring_titles.png), it 
+     - From the Image [Retiring_titles](Resources/retiring_titles.png), it can be concluded that total of 72,458 employees are eligible for retirement.
+     - And out of which 50,842 are the Senior Engineers and Senior Staff, which covers 70% of the total retired employees.
+     - Manager position holds the lowest share of employees who are eligible for the retirement.
+     - [Mentorship_eligibilty](Resources/mentorship_eligibilty.png) Image represesnts all the details including emp_no, first_name, last_name, birth_date,                  from_date, to_date, title of the respective employees who are eligible to participate in a mentorship program.
+     
 
 
 ## Summary:
 
-A written report on the employee database analysis
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+  Based on the findings, around 72,458 roles will need to be filled by Pewlett Hackard as the "silver tsunami" begins to amke an impact.
+   
+- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+  
+
