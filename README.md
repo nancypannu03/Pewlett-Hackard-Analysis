@@ -114,5 +114,6 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
   Based on the findings, around 72,458 roles will need to be filled by Pewlett Hackard as the "silver tsunami" begins to amke an impact.
    
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-  
+
+  No, According to the Analysis, we just have 1549 employees who are eligible for mentorship. This number is way more lower than the amount of retiring employees. 
 
