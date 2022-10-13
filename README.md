@@ -97,7 +97,8 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 ![Test Image](/Resources/mentorship_eligibilty.png)
 
 - Four major points from the two analysis deliverables. 
-     - 
+     - From the Image [Retiring_titles](Resources/retiring_titles.png), it 
+
 
 ## Summary:
 
