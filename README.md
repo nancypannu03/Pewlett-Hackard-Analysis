@@ -13,9 +13,10 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 ### Deliverable 1: The Number of Retiring Employees by Title
 - Creating employees and titles tables and imporitng the csv files 
 
-          CREATE TABLE employees (
-	    emp_no INT NOT NULL,
-	    birth_date DATE NOT NULL,
+          CREATE TABLE employees 
+	  (
+	  emp_no INT NOT NULL,
+	  birth_date DATE NOT NULL,
           first_name VARCHAR NOT NULL,
           last_name VARCHAR NOT NULL,
           gender VARCHAR NOT NULL,
@@ -24,7 +25,8 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
           );
           select * from employees;
 	 
-          CREATE TABLE titles (
+          CREATE TABLE titles
+	  (
 	  emp_no INT NOT NULL,
           title VARCHAR NOT NULL,
           from_date DATE NOT NULL,
