@@ -10,8 +10,12 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
      - PostgreSQL - to create a database.
      - pgAdmin - to work with the data he'll be importing.
 
-### Deliverable 1: The Number of Retiring Employees by Title
-- Creating employees and titles tables and imporitng the csv files 
+## Results
+
+### Code
+
+#### Deliverable 1: The Number of Retiring Employees by Title
+-- Creating employees and titles tables and imporitng the csv files 
 
       CREATE TABLE employees 
       (
@@ -34,7 +38,7 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
       );
       Select * from titles;
 
---The Number of Retiring Employees by Title
+-- The Number of Retiring Employees by Title
 
        SELECT e.emp_no,
          e.first_name,
@@ -57,10 +61,14 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
       ORDER BY COUNT(title) DESC;
 
       SELECT * from retiring_titles;
+      
+![Test Image](/Resources/retirement_titles.png)
+![Test Image](/Resources/unique_titles.png)
+![Test Image](/Resources/retiring_titles.png)
 
-### Deliverable 2: The Employees Eligible for the Mentorship Program
+#### Deliverable 2: The Employees Eligible for the Mentorship Program
 
---create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program
+-- Create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program
 
       SELECT DISTINCT ON(e.emp_no) e.emp_no,
       e.first_name,
@@ -82,7 +90,7 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 
       Select * from mentorship_eligibilty;
 
-## Results
+
 - 
 There is a bulleted list with four major points from the two analysis deliverables. 
 
