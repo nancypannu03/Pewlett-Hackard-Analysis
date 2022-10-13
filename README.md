@@ -14,6 +14,8 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 
 ### Code
 
+[Employee_Database_challenge sql file](Queries/Employee_Database_challenge.sql)
+
 #### Deliverable 1: The Number of Retiring Employees by Title
 -- Creating employees and titles tables and imporitng the csv files 
 
@@ -93,8 +95,9 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
       Select * from mentorship_eligibilty;
 
 ![Test Image](/Resources/mentorship_eligibilty.png)
-- 
-There is a bulleted list with four major points from the two analysis deliverables. 
+
+- Four major points from the two analysis deliverables. 
+     - 
 
 ## Summary:
 
