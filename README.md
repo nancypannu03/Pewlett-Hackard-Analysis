@@ -121,3 +121,4 @@ This analysis will help future-proof Pewlett Hackard by generating a list of all
 
   No, According to the Analysis, we just have 1549 employees who are eligible for mentorship. This number is way more lower than the amount of retiring employees. 
 
+![Test Image](/Resources/mentor_employees.png)
